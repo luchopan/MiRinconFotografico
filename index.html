@@ -12,14 +12,41 @@
       <img src="img/logo.png" alt="Logo" class="logo" />
 
       <!-- Navbar -->
-      <nav class="navbar">
-        <ul>
-          <li><a href="#inicio">Inicio</a></li>
-          <li><a href="#sobre-mi">Sobre mí</a></li>
-          <li><a href="#galeria">Galería</a></li>
-          <li><a href="#testimonios">Testimonios</a></li>
-          <li><a href="#contacto">Contacto</a></li>
-        </ul>
+      <nav>
+        <input type="checkbox" id="sidebar-active" />
+        <label for="sidebar-active" class="open-sidebar-button">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="32"
+            viewBox="0 -960 960 960"
+            width="32"
+          >
+            <path
+              d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"
+            />
+          </svg>
+        </label>
+        <label id="overlay" for="sidebar-active"></label>
+        <div class="links-container">
+          <label for="sidebar-active" class="close-sidebar-button">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="32"
+              viewBox="0 -960 960 960"
+              width="32"
+            >
+              <path
+                d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"
+              />
+            </svg>
+          </label>
+
+          <a class="inicio-link" href="#inicio">Inicio</a>
+          <a href="#sobre-mi">Sobre mí</a>
+          <a href="#galeria">Galería</a>
+          <a href="#testimonios">Testimonios</a>
+          <a href="#contacto">Contacto</a>
+        </div>
       </nav>
     </header>
 
@@ -102,7 +129,7 @@
       <hr />
       <center>
         <h3>
-          Puedes pulsar las fotos, cada una te mostrará algo interesante 😊.
+          Puedes pulsar las fotos, cada una te mostrará algo interesante 😊
         </h3>
       </center>
     </section>
@@ -112,24 +139,24 @@
       <div class="testimonial-container">
         <blockquote>
           <p>
-            "Las fotos capturan emociones de una manera única. Cada toma cuenta
-            una historia."
+            "La esencia de un momento perdura en la memoria, pero la realidad
+            física muy pocos la capturan y eso es lo que haces tú."
           </p>
-          <p>- Juan Pérez</p>
+          <p>- Angelina</p>
         </blockquote>
         <blockquote>
           <p>
-            "Increíble trabajo, cada imagen transmite una sensación especial.
-            100% recomendado."
+            “Nunca había sentido mi esencia tanto en una foto, como en estas
+            tomas. Es algo extraordinario.“
           </p>
-          <p>- María Rodríguez</p>
+          <p>- Jean</p>
         </blockquote>
         <blockquote>
           <p>
             "Nunca pensé que una foto pudiera decir tanto. Simplemente
             impresionante."
           </p>
-          <p>- Luis García</p>
+          <p>- Andrea</p>
         </blockquote>
       </div>
     </section>
