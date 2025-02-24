@@ -4,8 +4,6 @@
 
 Este proyecto es una página web personal dedicada a mi pasión por la fotografía. Aquí muestro mis trabajos, comparto experiencias y creo un espacio donde las emociones se convierten en imágenes.
 
----
-
 ## 🚀 Características
 
 - 🌐 Navegación sencilla con barra de menú intuitiva.
@@ -13,23 +11,17 @@ Este proyecto es una página web personal dedicada a mi pasión por la fotograf�
 - 📖 Sección de testimonios de personas que han disfrutado de mi trabajo.
 - 📩 Formulario de contacto para solicitudes o consultas.
 
----
-
 ## 🔧 Tecnologías Utilizadas
 
 - **HTML5** - Estructura del sitio.
 - **CSS3** - Diseño y estilo visual.
 - **JavaScript** - (Proximamente).
 
----
-
 ## 💻 Instalación y Uso
 
 1. **Clona el repositorio:**
    ```bash
    git clone https://github.com/TU_USUARIO/mi-rincon-fotografico.git
-
----
 
 ## 📜 Licencia
 
