@@ -1,4 +1,4 @@
-# Mi Portafolio Fotográfico 📸
+# Mi Rincón Fotográfico 📸
 
 Este es mi portafolio donde comparto mis trabajos fotográficos, mis estilos favoritos y mi enfoque personal en la fotografía. Este proyecto fue desarrollado como una forma de mostrar mi trabajo y conectarme con otros apasionados por la fotografía.
 
