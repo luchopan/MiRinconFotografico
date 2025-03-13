@@ -1,25 +1,42 @@
-# Mi Rincón Fotográfico 📸
+# 📸 Mi Rincón Fotográfico
 
-Este es mi portafolio donde comparto mis trabajos fotográficos, mis estilos favoritos y mi enfoque personal en la fotografía. Este proyecto fue desarrollado como una forma de mostrar mi trabajo y conectarme con otros apasionados por la fotografía.
+**Captura el momento, vive la emoción.**
 
-## 🌟 Acerca de
+Este proyecto es una página web personal dedicada a mi pasión por la fotografía. Aquí muestro mis trabajos, comparto experiencias y creo un espacio donde las emociones se convierten en imágenes.
 
-La fotografía es mi forma de capturar momentos y emociones. Cada imagen cuenta una historia única y aquí podrás ver una selección de mis mejores fotos.
+---
 
-## 🖼️ Estilos de Fotografía
+## 🚀 Características
 
-Algunos de los estilos de fotografía que más disfruto:
+- 🌐 Navegación sencilla con barra de menú intuitiva.
+- 🖼️ Galería interactiva de fotografías.
+- 📖 Sección de testimonios de personas que han disfrutado de mi trabajo.
+- 📩 Formulario de contacto para solicitudes o consultas.
 
-- 🌄 Paisajismo
-- 🏙️ Fotografía Urbana
-- 📸 Retratos
-  
-## 🚀 Tecnologías utilizadas
+---
 
-- HTML5
-  
-## 🔗 Enlaces de Interés
+## 🔧 Tecnologías Utilizadas
 
-- [Instagram](https://www.instagram.com/luchopan._/) - Mira más fotos en mi Instagram.
-- [Cineminuto en YouTube](https://youtu.be/mRn33D78aI4) - Un corto que creé sobre la reflexión en momentos difíciles.
+- **HTML5** - Estructura del sitio.
+- **CSS3** - Diseño y estilo visual.
+- **JavaScript** - (Proximamente).
 
+---
+
+## 💻 Instalación y Uso
+
+1. **Clona el repositorio:**
+   ```bash
+   git clone https://github.com/TU_USUARIO/mi-rincon-fotografico.git
+
+---
+
+## 📜 Licencia
+
+Este proyecto está licenciado bajo la **MIT License** para el código. Puedes usar, modificar y distribuir el código libremente, siempre dando el crédito correspondiente.
+
+### 📸 Licencia de imágenes
+
+Todas las imágenes incluidas en este proyecto están bajo la licencia **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)**. Esto significa que puedes usarlas y adaptarlas, siempre que des crédito al autor y no las utilices con fines comerciales.
+
+Para más información, visita [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).

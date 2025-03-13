@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Rincón Fotográfico</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="inicio">
+      <img src="../img/logo.png" alt="Logo" class="logo" />
+
+      <!-- Navbar -->
+      <nav>
+        <input type="checkbox" id="sidebar-active" />
+        <label for="sidebar-active" class="open-sidebar-button">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="32"
+            viewBox="0 -960 960 960"
+            width="32"
+          >
+            <path
+              d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"
+            />
+          </svg>
+        </label>
+        <label id="overlay" for="sidebar-active"></label>
+        <div class="links-container">
+          <label for="sidebar-active" class="close-sidebar-button">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="32"
+              viewBox="0 -960 960 960"
+              width="32"
+            >
+              <path
+                d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"
+              />
+            </svg>
+          </label>
+
+          <a class="inicio-link" href="../index.html#bienvenida">Inicio</a>
+          <a href="../index.html#sobre-mi">Sobre mí</a>
+          <a href="../index.html#galeria">Galería</a>
+          <a href="../index.html#testimonios">Testimonios</a>
+          <a href="../index.html#contacto">Contacto</a>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Foto -->
+    <section id="foto">
+      <div class="foto-contenido">
+        <img src="../img/ciudad2.jpeg" class="imagen" />
+        <div class="foto-texto">
+          <h2>"La Inspiración de lo Cotidiano"</h2>
+          <p class="justificado">
+            No todas las fotos nacen de momentos planeados; a veces, la mejor
+            inspiración surge cuando menos lo esperas. Esta imagen fue capturada
+            durante una caminata casual por la ciudad con unos amigos, sin más
+            intención que disfrutar del día y dejarnos llevar por el momento.
+          </p>
+
+          <p class="justificado">
+            La escena estaba ahí, simple pero llena de vida: el contraste entre
+            los edificios, el verde que rompe con el concreto, y la tranquilidad
+            de un camino que invita a perderse. No fue necesario buscar el
+            escenario perfecto; solo hizo falta mirar alrededor y dejar que el
+            entorno hablara por sí solo.
+          </p>
+
+          <p class="justificado">
+            Esta foto me recuerda que la creatividad no siempre viene de
+            momentos grandiosos, sino de saber apreciar lo que nos rodea,
+            incluso en las situaciones más sencillas.
+          </p>
+
+          <hr />
+          <blockquote>
+            ¿Quieres saber que es la inspiración de donde surge?
+            <a
+              href="https://definicion.de/arrebol/"
+              target="_blank"
+              class="enlace-clasico"
+              >Puedes leer sobre esto aquí</a
+            >
+          </blockquote>
+        </div>
+      </div>
+
+      <!-- Controles de navegación -->
+      <div class="navegacion">
+        <a href="/pages/ElComienzodeunNuevoEnfoque.html#foto" class="anterior"
+          >Anterior</a
+        >
+        <a href="/pages/LaPrimeraConexion.html#foto" class="siguiente"
+          >Siguiente</a
+        >
+        <a href="/index.html" class="volver">Página Principal</a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>💡 Desarrollado por Luis Barraza | Contacto: lbarraza@example.com</p>
+      <p>&copy; 2025 Mi Rincón Fotográfico. Todos los derechos reservados.</p>
+      <p>📍 Ubicación: Barranquilla, Colombia</p>
+      <div class="social-icons">
+        <a href="https://www.instagram.com/luchopan._/" target="_blank"
+          ><img src="../img/ig.png" alt="Instagram"
+        /></a>
+        <a
+          href="https://www.facebook.com/profile.php?id=100008827662701"
+          target="_blank"
+          ><img src="../img/fb.png" alt="Facebook"
+        /></a>
+      </div>
+    </footer>
+  </body>
+</html>

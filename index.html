@@ -1,117 +1,193 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <link rel="stylesheet" href="styles.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image" href="img/icon.svg" />
     <title>Mi Rincón Fotográfico</title>
-</head>
-<body>
-    <header>
-        <center>
-            <h1>📸 Mi Rincón Fotográfico 📸</h1>
-        </center>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="inicio">
+      <img src="img/logo.png" alt="Logo" class="logo" />
+
+      <!-- Navbar -->
+      <nav>
+        <input type="checkbox" id="sidebar-active" />
+        <label for="sidebar-active" class="open-sidebar-button">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="32"
+            viewBox="0 -960 960 960"
+            width="32"
+          >
+            <path
+              d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"
+            />
+          </svg>
+        </label>
+        <label id="overlay" for="sidebar-active"></label>
+        <div class="links-container">
+          <label for="sidebar-active" class="close-sidebar-button">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="32"
+              viewBox="0 -960 960 960"
+              width="32"
+            >
+              <path
+                d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"
+              />
+            </svg>
+          </label>
+
+          <a class="inicio-link" href="#bienvenida">Inicio</a>
+          <a href="#sobre-mi">Sobre mí</a>
+          <a href="#galeria">Galería</a>
+          <a href="#testimonios">Testimonios</a>
+          <a href="#contacto">Contacto</a>
+        </div>
+      </nav>
     </header>
 
-    <section>
-        <center>
-            <h2>Sobre mí</h2>
-            <td><img src="img/me.jpeg" alt="Playa al atardecer" width="300" height="auto" class="borde-personalizado"></td>
-            <p><blockquote>"La fotografía no es solo una imagen, es una historia congelada en el tiempo."</blockquote></p>
-            <p>Cada imagen habla por sí misma.</p>
-        </center>
-        <hr>
+    <!-- Sección de Bienvenida -->
+    <section id="bienvenida" class="bienvenida">
+      <div class="contenido-bienvenida">
+        <h1>Bienvenido a Mi Rincon Fotográfico</h1>
+        <p>"Captura el momento, vive la emoción."</p>
+      </div>
     </section>
 
-    <section>
-        <h2>🎯 Estilos de fotografía que disfruto</h2>
-        <ul>
-            <li>🌄 Paisajismo</li>
-            <li>🏙️ Fotografía Urbana</li>
-            <li>📸 Retratos</li>
-        </ul>
-        <hr>
-    </section>
-
-    <section>
-        <h2>📷 Algunas de mis fotos</h2>
-        <div style="overflow-x: auto; margin: 0 10px;">
-            <table border="1" width="100%" cellspacing="0" cellpadding="5">
-                <tr>
-                    <th>Foto</th>
-                    <th><img src="img/playa.jpeg" alt="Playa al atardecer" width="300" height="auto"></th>
-                    <th><img src="img/retrato.jpeg" alt="Centro de la ciudad" width="280" height="auto"></th>
-                    <th><img src="img/ciudad.jpeg" alt="Centro de la ciudad" width="300" height="auto"></th>
-                </tr>
-                <tr>
-                    <th>Ubicación</th>
-                    <td>🌅 Playa Santa Veronica</td>
-                    <td>⚓ Muelle Puerto Colombia</td>
-                    <td>🌆 Barranquilla</td>
-                </tr>
-                <tr>
-                    <th>Fecha</th>
-                    <td>20/07/2024</td>
-                    <td>12/10/2024</td>
-                    <td>19/02/2022</td>
-                </tr>
-                <tr>
-                    <th>Equipo</th>
-                    <td>📷 Canon PowerShot A2200</td>
-                    <td>📷 Canon Rebel EOS T4i </td>
-                    <td>📷 Smartphone Vivo V2035 </td>
-                </tr>
-            </table>
+    <!-- Sobre mí -->
+    <section id="sobre-mi">
+      <h2>Sobre mí</h2>
+      <div class="sobre-mi-contenido">
+        <img src="img/me.jpeg" alt="Foto personal" class="perfil" />
+        <div class="sobre-mi-texto">
+          <blockquote>
+            "Cada fotografía es un instante robado al tiempo, una historia que
+            vive para siempre."
+          </blockquote>
+          <hr />
+          <p>
+            La fotografía para mí es más que un hobby; es el refugio donde cada
+            imagen captura un momento de paz, emoción o simple admiración por lo
+            cotidiano. A través de mi lente, busco transmitir esas pequeñas
+            historias que merecen ser contadas sin palabras.
+          </p>
         </div>
+      </div>
     </section>
 
-    <section>
-        <h2>📩 Contacto</h2>
-        <table border="1" width="100%" cellspacing="0" cellpadding="10">
-            <tr>
-                <td>
-                    <fieldset>
-                        <legend><b>📬 Envíame un mensaje</b></legend>
-                        <form>
-                            <label for="nombre">Nombre</label>
-                            <input type="text" id="nombre" name="nombre" required><br><br>
-                            
-                            <label for="email">Correo Electrónico</label>
-                            <input type="email" id="email" name="email" required><br><br>
-                            
-                            <label for="mensaje">Mensaje:</label><br>
-                            <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br><br>
-                            
-                            <input type="submit" value="Enviar">
-                        </form>
-                    </fieldset>
-                </td>
-            </tr>
-        </table>
+    <!-- Galería de tarjetas -->
+    <section id="galeria">
+      <h2><center>Mis mejores capturas</center></h2>
+      <div class="card-container">
+        <!-- Tarjetas -->
+        <a href="/pages/UnUltimoVistazo.html#foto" class="card">
+          <img src="img/paisaje.jpeg" alt="Playa al atardecer" />
+          <h3>"Un Último Vistazo"</h3>
+        </a>
+        <a href="/pages/UnaPausaEntreCaminos.html#foto" class="card">
+          <img src="img/paisaje2.jpeg" alt="Retrato en el muelle" />
+          <h3>"Una Pausa Entre Caminos"</h3>
+        </a>
+        <a href="/pages/ElComienzodeunNuevoEnfoque.html#foto" class="card">
+          <img src="img/ciudad.jpeg" alt="Vista de la ciudad" />
+          <h3>"El Comienzo de un Nuevo Enfoque"</h3>
+        </a>
+        <a href="/pages/LaInspdeloCotidiano.html#foto" class="card">
+          <img src="img/ciudad2.jpeg" alt="Foto de muestra 1" />
+          <h3>"La Inspiración de lo Cotidiano"</h3>
+        </a>
+        <a href="/pages/LaPrimeraConexion.html#foto" class="card">
+          <img src="img/retrato.jpeg" alt="Foto de muestra 2" />
+          <h3>"La Primera Conexión"</h3>
+        </a>
+        <a href="/pages/UnDiaInol.html#foto" class="card">
+          <img src="img/retrato2.jpeg" alt="Foto de muestra 3" />
+          <h3>"Un Día Inolvidable"</h3>
+        </a>
+        <a href="/pages/Cineminuto.html#foto" class="card">
+          <img src="img/cineminuto.png" alt="Foto de muestra 4" />
+          <h3>"Detrás del Tiempo"</h3>
+        </a>
+        <a href="/pages/Minimalist.html#foto" class="card">
+          <img src="img/minimalist.jpeg" alt="Foto de muestra 5" />
+          <h3>"Un Lienzo en Blanco"</h3>
+        </a>
+        <a href="/pages/B_and_W.html#foto" class="card">
+          <img src="img/b&w.jpeg" alt="Foto de muestra 5" />
+          <h3>"Explorando lo Desconocido"</h3>
+        </a>
+        <a href="/pages/Empezar.html#foto" class="card">
+          <img src="img/collage.png" alt="Foto de muestra 5" />
+          <h3>¿Como Empecé?</h3>
+        </a>
+      </div>
+      <h1></h1>
+      <hr />
+      <center>
+        <h3>
+          Puedes pulsar las fotos, cada una te mostrará algo interesante 😊
+        </h3>
+      </center>
     </section>
 
-    <section>
-        <h2>🔗 Enlaces de interés</h2>
-        <ul>
-            <li><a href="https://youtu.be/mRn33D78aI4" target="_blank">🎥 Ver mi Cineminuto</a></li>
-            <li><a href="https://www.youtube.com/watch?v=Ar_h-uwUvDs" target="_blank">📖 Consejos de fotografía</a></li>
-        </ul>
-        <hr>
+    <section id="testimonios">
+      <h2>Testimonios</h2>
+      <div class="testimonial-container">
+        <blockquote>
+          <p>
+            "La esencia de un momento perdura en la memoria, pero la realidad
+            física muy pocos la capturan y eso es lo que haces tú."
+          </p>
+          <p>- Angelina</p>
+        </blockquote>
+        <blockquote>
+          <p>
+            “Nunca había sentido mi esencia tanto en una foto, como en estas
+            tomas. Es algo extraordinario.“
+          </p>
+          <p>- Jean</p>
+        </blockquote>
+        <blockquote>
+          <p>
+            "Nunca pensé que una foto pudiera decir tanto. Simplemente
+            impresionante."
+          </p>
+          <p>- Andrea</p>
+        </blockquote>
+      </div>
     </section>
 
+    <!-- Contacto -->
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <form class="contact-form">
+        <input type="text" placeholder="Nombre" required />
+        <input type="email" placeholder="Correo electrónico" required />
+        <textarea placeholder="Escribe tu mensaje aquí..." required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+    <!-- Footer -->
     <footer>
-    <center>
-        <p>💡 Desarrollado por Luis Barraza | Contacto: lbarraza@example.com</p>
-        <p>&copy; 2025 Mi Portafolio Fotográfico. Todos los derechos reservados.</p>
-        <p>📍 Ubicación: Barranquilla, Colombia</p>
-        <div>
-            <a href="https://www.instagram.com/luchopan._/" target="_blank">
-                <img src="img/ig.png" alt="Instagram" width="60" style="margin: 1px;">
-            </a>
-            <a href="https://www.facebook.com/profile.php?id=100008827662701" target="_blank">
-                <img src="img/fb.png" alt="Facebook" width="40" style="margin: 9px;">
-            </a>
-        </div>
-        <p>"La fotografía es la poesía de los ojos."</p>
-    </center>
-</footer>
+      <p>💡 Desarrollado por Luis Barraza | Contacto: lbarraza@example.com</p>
+      <p>&copy; 2025 Mi Rincón Fotográfico. Todos los derechos reservados.</p>
+      <p>📍 Ubicación: Barranquilla, Colombia</p>
+      <div class="social-icons">
+        <a href="https://www.instagram.com/luchopan._/" target="_blank"
+          ><img src="img/ig.png" alt="Instagram"
+        /></a>
+        <a
+          href="https://www.facebook.com/profile.php?id=100008827662701"
+          target="_blank"
+          ><img src="img/fb.png" alt="Facebook"
+        /></a>
+      </div>
+    </footer>
+  </body>
+</html>
